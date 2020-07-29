@@ -5,9 +5,9 @@ public class IRTest
 {
     public static void main(String[] args)
     {
-        IteratorRemover test = new IteratorRemover();
-        test.setTest(args[0], args[1], args[2]);
-        test.remove();
+        IteratorReplacer test = new IteratorReplacer();
+        test.setEmAll(args[0], args[1], args[2]);
+        test.replace();
         System.out.println(test);
     }
 }
