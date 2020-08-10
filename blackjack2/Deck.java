@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Random;
 
 public class Deck {
     public static final int NUMFACES = 13;
@@ -16,24 +17,24 @@ public class Deck {
 
 
         // Loop through suits
-            // Loop through faces
-                // Add in a new card
+        //     Loop through faces
+        //         Add in a new card
     }
 
     // Modifiers
     public void shuffle() {
-        // Shuffle the deck
+        // Shuffle the deck - Collections has a shuffle method!
         // Reset variables as needed
     }
 
     // Accessors
     public int size() {
-        // Complete this method
+        // Return the total number of cards in the deck
         return 0;
     }
 
     public int numCardsLeft() {
-        // Complete this method
+        // Return the number of cards that have not been dealt
         return 0;
     }
 
