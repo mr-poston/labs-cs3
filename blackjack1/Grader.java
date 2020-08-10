@@ -8,7 +8,7 @@ public class Grader {
         if (args.length == 0) {
             Card card = new BlackJackCard();
             out.println(card);
-        } else if (args.langth == 2) {
+        } else if (args.length == 2) {
             Card card = new BlackJackCard(Integer.parseInt(args[0]), args[1]);
             out.println(card);
         } else if (args.length == 1 && args[0].equals("equals")) {
