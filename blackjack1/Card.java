@@ -1,6 +1,7 @@
 public class Card {
     public static final String[] FACES = {"ZERO", "ACE", "TWO", "THREE", "FOUR", "FIVE", "SIX",
-        "SEVEN", "EIGHT", "NINE", "TEN", "JACK", "QUEEN", "KING"};
+                                          "SEVEN", "EIGHT", "NINE", "TEN", "JACK", "QUEEN", "KING"
+                                         };
 
     private String suit;
     private int face;

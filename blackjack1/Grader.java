@@ -22,6 +22,9 @@ public class Grader {
             out.println(one.equals(one));
             out.println(four.equals(five));
             out.println(three.equals(four));
+        } else if (args.length == 1 && args[0].equals("toString")) {
+            Card c = new BlackJackCard(13, "CLUBS");
+            out.println(c);
         }
     }
 }
