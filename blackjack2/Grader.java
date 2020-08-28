@@ -9,15 +9,15 @@ public class Grader {
         for (int i = 0; i < Deck.NUMCARDS; i++) {
             deck.nextCard();
         }
-        out.println(deck.numCardsLeft());
+        out.print(deck.numCardsLeft());
         deck.shuffle();
-        out.println(deck.numCardsLeft());
+        out.print(deck.numCardsLeft());
         deck.nextCard();
-        out.println(deck.numCardsLeft());
+        out.print(deck.numCardsLeft());
         for (int i = 0; i < 7; i++) {
             deck.nextCard();
         }
-        out.println(deck.numCardsLeft());
-        out.println(deck.size());
+        out.print(deck.numCardsLeft());
+        out.print(deck.size());
     }
 }
