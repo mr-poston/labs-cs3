@@ -18,6 +18,6 @@ public class Grader {
         } else {
             return;
         }
-        out.println(dealer.hit();
+        out.println(dealer.hit());
     }
 }
