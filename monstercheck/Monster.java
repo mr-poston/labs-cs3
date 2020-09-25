@@ -5,5 +5,5 @@ public interface Monster {
     public String getName();
     public boolean isBigger(Monster other);
     public boolean isSmaller(Monster other);
-    public boolean nameTheSame(Monster other);
+    public boolean namesTheSame(Monster other);
 }
