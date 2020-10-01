@@ -11,10 +11,10 @@ public class Grader {
         Skeleton mon1 = new Skeleton(args[0], Integer.parseInt(args[1]));
         Skeleton mon2 = new Skeleton(args[2], Integer.parseInt(args[3]));
         if (args[4].equals("toString")) {
-            out.print(mon1 + " " + mon2)
+            out.print(mon1 + " " + mon2);
         }
         if (args[4].equals("getHowBig")) {
-            out.print(mon1.getHowBig() == Integer.parseInt(args[1]);
+            out.print(mon1.getHowBig() == Integer.parseInt(args[1]));
         }
         if (args[4].equals("getName")) {
             out.print(mon2.getName().equals(args[2]));
