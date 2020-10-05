@@ -19,7 +19,7 @@ public class VehicleRunner {
 
         list.add(new Car("Honda Civic", 2009, 9000, 32));
         list.add(new Truck("Chevy Silverado", 2015, 17000, 2500));
-        list add(new Airplane("Cessna 206", 1997, 400000, 6, true));
+        list.add(new Airplane("Cessna 206", 1997, 400000, 6, true));
 
         Helicopter helicopter = new Helicopter("Bell 206L", 1986, 660000, 7, false);
 
