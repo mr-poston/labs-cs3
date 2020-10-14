@@ -1,7 +1,7 @@
 /****************************************
  * DO NOT DELETE OR CHANGE THIS FILE!!! *
  ****************************************/
-public class IRTest
+public class Grader
 {
     public static void main(String[] args)
     {
