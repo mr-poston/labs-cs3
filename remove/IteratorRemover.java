@@ -8,8 +8,7 @@ import java.util.Iterator;
  * You must use an Iterator
  */
 
-public class IteratorRemover
-{
+public class IteratorRemover {
     private ArrayList<String> list;
     private String toRemove;
 
@@ -19,8 +18,7 @@ public class IteratorRemover
      * list should be an empty ArrayList
      * toRemove should be an empty String
      */
-    public IteratorRemover()
-    {
+    public IteratorRemover() {
 
     }
 
@@ -28,16 +26,14 @@ public class IteratorRemover
      * Use this method to set the list and the
      * word to be removed.
      */
-    public void setTest(String line, String rem)
-    {
+    public void setTest(String line, String rem) {
 
     }
 
     /**
      * Removes all occurrences of toRemove from list
      */
-    public void remove()
-    {
+    public void remove() {
 
     }
 
@@ -45,8 +41,7 @@ public class IteratorRemover
      * Returns list as a String
      */
     @Override
-    public String toString()
-    {
+    public String toString() {
         return "";
     }
 }
