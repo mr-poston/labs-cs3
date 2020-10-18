@@ -7,8 +7,7 @@ import java.util.ListIterator;
  * Replace all occurrences of the original word with the new word.
  * You must use a ListIterator
  */
-public class IteratorReplacer
-{
+public class IteratorReplacer {
     private ArrayList<String> list;
     private String toRemove;
     private String replaceWith;
@@ -19,30 +18,26 @@ public class IteratorReplacer
      * list should be an empty list.
      * toRemove and replaceWith should be empty Strings.
      */
-    public IteratorReplacer()
-    {
+    public IteratorReplacer() {
 
     }
     
     /**
      * Set the values here for testing
      */
-    public void setEmAll(String line, String rem, String rep)
-    {
+    public void setEmAll(String line, String rem, String rep) {
 
     }
 
     /**
      * Replaces all occurrences of `toRemove` with `replaceWith`
      */
-    public void replace()
-    {
+    public void replace() {
 
     }
 
     @Overrride
-    public String toString()
-    {
+    public String toString() {
         return list.toString();
     }
 }
