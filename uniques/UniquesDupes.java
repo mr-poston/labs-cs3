@@ -5,16 +5,21 @@ import java.util.TreeSet;
 
 public class UniquesDupes {
     public static Set<String> getUniques(String input) {
-        Set<String> uniques = new TreeSet<>();
+        // Create a Set of Strings called `uniques` and instantiate it with a TreeSet
+        // Create a List of Strings called `list` and instantiate it with an ArrayList using `input`
+        // Add items from `list` to `uniques`
 
-        // Add code
-
-        return uniques;
+        // Return `uniques`
+        return null;
     }
 
     public static Set<String> getDupes(String input) {
-        // Add code
+        // Create a Set of Strings called `uniques` and instantiate it with a TreeSet
+        // Create a Set of Strings called `dupes` and instantiate it with a TreeSet
+        // Create a List of Strings called `list` and instantiate it with an ArrayList using `input`
+        // Add items from `list` to `uniques` and determine which items should go in `dupes`
 
+        // Return `dupes`
         return null;
     }
 }
