@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class OddRunner {
 	public static void main(String[] args) {
         try {
-            // Add test cases here
+            // Create a Scanner to read input from file
+            // All test cases can go here
 
         } catch (IOException e) {
             System.out.println("Could not open file.");
