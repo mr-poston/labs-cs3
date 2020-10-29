@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -6,12 +7,13 @@ public class OddEvenSets {
 	private Set<Integer> evens;
 	
 	public OddEvenSets() {
-		// Instantiate odds and evens as empty TreeSet objects
+		this("");
 	}
 	
 	public OddEvenSets(String line) {
-		// Convert line to a String array
-        // Loop through the array and assign each number to the appropriate set
+		// Instantiate odds and evens as empty TreeSet objects
+		// Create a Scanner to read the integers from line
+        // Loop through the Scanner and assign each integer to the appropriate set
 	}
 	
 	@Override
