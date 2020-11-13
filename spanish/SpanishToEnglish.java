@@ -6,7 +6,7 @@ public class SpanishToEnglish {
     private Map<String, String> pairs;
 
     public SpanishToEnglish() {
-        // Instantiate `pairs` as a TreeMap
+        // Instantiate `pairs` as an empty TreeMap
 
     }
 
@@ -20,7 +20,7 @@ public class SpanishToEnglish {
     public String translate(String sentence) {
         Scanner scan = new Scanner(sentence);
         String output = "";
-        // Scan through `sentence` using each word as a key fo values in `pairs`
+        // Scan through `sentence` using each word as a key for values in `pairs`
         // Remember to add a space between each word in the output.
 
 
