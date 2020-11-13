@@ -12,6 +12,7 @@ public class SpanRunner {
 
             // Read an integer from the file and save to an int variable..
             // This is the number of entries contained in the file.
+            // Note: you need to call nextLine() after using Scanner's nextInt() method!
 
             // Put each entry into the map, using `putEntry()`.
 
