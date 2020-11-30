@@ -7,6 +7,9 @@ import java.util.Scanner;
 import static java.lang.System.*;
 public class Grader {
     public static void main(String[] args) {
+        if (args.length != 1) {
+            return;
+        }
         try {
             Scanner in = new Scanner(new File("acro.dat"));
             Acronyms test = new Acronyms();
@@ -15,8 +18,12 @@ public class Grader {
             for (int i = 0; i < num; i++) {
                 test.putEntry(in.nextLine());
             }
+            int count = 1;
             while (in.hasNext()) {
-                out.println(test.convert(in.nextLine()));
+                if (count == Integer.parseInt(args[0])) {
+                    out.println(test.convert(in.nextLine()));
+                }
+                count++;
             }
         } catch (IOException e) {
             out.println("Error - could not read file `acro.dat`");
