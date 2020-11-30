@@ -20,8 +20,9 @@ public class Grader {
             }
             int count = 1;
             while (in.hasNext()) {
+                String line = in.nextLine();
                 if (count == Integer.parseInt(args[0])) {
-                    out.println(test.convert(in.nextLine()));
+                    out.println(test.convert(line));
                 }
                 count++;
             }
