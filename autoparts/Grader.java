@@ -12,13 +12,13 @@ public class Grader {
         Part p2 = new Part("Wiper Blades 12321 Chevy Camaro 2009");
         Part p3 = new Part("Air Filter 99653 Chevy Silverado 2020");
         PartList list = new PartList("partinfo.dat");
-        if (args[0].equals("Part0") {
+        if (args[0].equals("Part0")) {
             out.println(p0);
-        } else if (args[0].equals("Part1") {
+        } else if (args[0].equals("Part1")) {
             out.println(p1);
-        } else if (args[0].equals("Part3") {
-            out.println((p2 < p3) + (p1 < p3));
-        } else if (args[0].equals("PartList") {
+        } else if (args[0].equals("Part2")) {
+            out.println(p2.compareTo(p3) < 0 + p1.compareTo(p3) < 0);
+        } else if (args[0].equals("PartList")) {
             out.println(list);
         }
     }

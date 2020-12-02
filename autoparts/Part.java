@@ -12,8 +12,12 @@ public class Part implements Comparable<Part> {
      * Creates a part object
      */
     public Part(String line) {
-        String[] list = line.split(" ");
+        String[] partPieces = line.split(" ");
+        int end = partPieces.length;
+        // Instantiate make, model, and leftOver
+        // year has been instantiated for you!
 
+        year = Integer.parseInt(partPieces[end - 1]);
     }
 
     // Have to have compareTo if it implements Comparable
