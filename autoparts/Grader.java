@@ -17,7 +17,7 @@ public class Grader {
         } else if (args[0].equals("Part1")) {
             out.println(p1);
         } else if (args[0].equals("Part2")) {
-            out.println(p2.compareTo(p3) < 0 + p1.compareTo(p3) < 0);
+            out.println("" + (p2.compareTo(p3) < 0) + (p1.compareTo(p3) < 0));
         } else if (args[0].equals("PartList")) {
             out.println(list);
         }
