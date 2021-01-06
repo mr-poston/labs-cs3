@@ -4,26 +4,26 @@ import static java.lang.System.*;
 public class StackTest {
 	private Stack<String> stack;
 
+	// call setStack with an empty String
 	public StackTest() {
-		setStack("");
+		
 	}
 
+	// call setStack with line
 	public StackTest(String line) {
-		setStack(line);
+		
 	}
 
+	// initialize stack as an empty Stack
+	// push each token from line to the stack
 	public void setStack(String line) {
-		stack = new Stack<>();
-		for (String s : line.split(" ")) {
-			stack.push(s);
-		}
+		
 	}
 
+	// as long as there is something on the stack, pop it and print it!
 	public void popEmAll() {
 		out.println("popping all items from the stack");
-		while (!stack.isEmpty()) {
-			out.print(stack.pop() + " ");
-		}
+		
 	}
 
 	@Override
