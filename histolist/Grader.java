@@ -21,7 +21,7 @@ public class Grader {
             out.println(test.indexOf('B'));
         }
         if (args[0].equals("nodeAt")) {
-            test.nodeAt(2).equals(test.getFront().getNext().getNext());
+            out.println(test.nodeAt(2).equals(test.getFront().getNext().getNext()));
         }
     }
 }
