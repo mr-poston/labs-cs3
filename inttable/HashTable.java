@@ -12,11 +12,13 @@ public class HashTable {
         // fill the array with empty MyLinkedLists
     }
 
-    public void add(Comparable value) {
-        int i = value.hashCode();
+    public MyLinkedList add(Comparable value) {
+        Number num = new Number((Integer)value);
+        int i = num.hashCode();
         // If `value` doesn't already exist in the table,
         // add it to the list in the appropriate bucket
         // Otherwise, do nothing
+        return table[i];
     }
 
     @Override
