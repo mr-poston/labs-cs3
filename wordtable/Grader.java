@@ -17,26 +17,26 @@ public class Grader {
         }
         if (args[0].equals("add")) {
             HashTable table = new HashTable();
-            table.add(one);
-            table.add(two);
-            table.add(dog);
-            table.add(cat);
-            table.add(chicken);
-            table.add(pig);
-            table.add(owl);
-            table.add(jump);
-            table.add(run);
-            table.add(hop);
-            table.add(shortcut);
-            table.add(ferret);
-            table.add(goat);
-            table.add(hootowl);
-            table.add(owl);
-            table.add(go);
-            table.add(alligator);
-            table.add(onimonapia);
-            table.add(food);
-            table.add(a);
+            table.add(new Word("one"));
+            table.add(new Word("two"));
+            table.add(new Word("dog"));
+            table.add(new Word("cat"));
+            table.add(new Word("chicken"));
+            table.add(new Word("pig"));
+            table.add(new Word("owl"));
+            table.add(new Word("jump"));
+            table.add(new Word("run"));
+            table.add(new Word("hop"));
+            table.add(new Word("shortcut"));
+            table.add(new Word("ferret"));
+            table.add(new Word("goat"));
+            table.add(new Word("hootowl"));
+            table.add(new Word("owl"));
+            table.add(new Word("go"));
+            table.add(new Word("alligator"));
+            table.add(new Word("onimonapia"));
+            table.add(new Word("food"));
+            table.add(new Word("a"));
     		out.println(table);
         }
     }
