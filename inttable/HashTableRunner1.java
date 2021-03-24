@@ -11,7 +11,7 @@ public class HashTableRunner1 {
             int runCount = file.nextInt();
             for (int i = 0; i < runCount; i++) {
                 Number num = new Number(file.nextInt());
-                table.add(num.getValue());
+                table.add(num);
             }
             System.out.println(table);
         } catch (IOException e) {
