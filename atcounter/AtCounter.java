@@ -31,6 +31,7 @@ public class AtCounter {
         // TODO:
         // Add in recursive code to count up the # of @s connected
         // Start checking at spot [r][c]
+        // Use * symbol to mark spot as visited
         return 0;
     }
 
