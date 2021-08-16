@@ -1,4 +1,9 @@
-lab50: true
+lab50:
+  window:
+    - editor
+    - readme
+    - terminal
+
   files:
     - !include IteratorReplacer.java
     - !include IteratorReplacerRunner.java
