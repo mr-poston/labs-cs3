@@ -29,11 +29,11 @@ Here's how to download this problem's "distribution code" (i.e., starter code) i
     <td><code>[+, b, c, +, b, c]</code></td>
   </tr>
   <tr>
-    <td><code>a b c d e f g h i j x x x x&emsp;x&emsp;7</code></td>
+    <td><code>a b c d e f g h i j x x x x &emsp; x &emsp; 7</code></td>
     <td><code>[a, b, c, d, e, f, g, h, i, j, 7, 7, 7, 7]</code></td>
   </tr>
   <tr>
-    <td><code>1 2 3 4 5 6 a b c a b c&emsp;b&emsp;#</code></td>
+    <td><code>1 2 3 4 5 6 a b c a b c &emsp; b &emsp; #</code></td>
     <td><code>[1, 2, 3, 4, 5, 6, a, #, c, a, #, c]</code></td>
   </tr>
 </table>
