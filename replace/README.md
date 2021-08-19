@@ -19,11 +19,6 @@ Here's how to download this problem's "distribution code" (i.e., starter code) i
 1. To open a file for editing, use the `open` command or double click the file name in the lefthand file browser.
 
 ## Sample Data and Output
-Sample Data | Sample Output
------------ | -------------
-`a b c a b c     a     +` | `[+, b, c, +, b, c]`
-`a b c d e f g h i j x x x x     x     7` | `[a, b, c, d, e, f, g, h, i, j, 7, 7, 7, 7]`
-`1 2 3 4 5 6 a b c a b c     b     #` | `[1, 2, 3, 4, 5, 6, a, #, c, a, #, c]`
 <table>
   <tr>
     <th>Sample Data</th>
