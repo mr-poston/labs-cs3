@@ -2,8 +2,8 @@ import check50
 
 @check50.check()
 def exists():
-    """IteratorReplacer.java and IteratorReplacerRunner.java exist"""
-    check50.exists("IteratorReplacer.java", "IteratorReplacerRunner.java")
+    """IteratorRemover.java and IteratorRemoverRunner.java exist"""
+    check50.exists("IteratorRemover.java", "IteratorRemoverRunner.java")
 
 @check50.check(exists)
 def replacer_compiles():
