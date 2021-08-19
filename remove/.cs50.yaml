@@ -5,7 +5,7 @@ lab50:
     - terminal
 
   files:
-    - !exlude "*"
+    - !exclude "*"
     - !include IteratorRemover.java
     - !include IteratorRemoverRunner.java
     - !include Grader.java
