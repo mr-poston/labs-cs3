@@ -3,9 +3,11 @@
  ****************************************/
 public class Grader {
     public static void main(String[] args) {
-        IteratorReplacer test = new IteratorReplacer();
-        test.setEmAll(args[0], args[1], args[2]);
-        test.replace();
-        System.out.println(test);
+        IteratorRemover test = new IteratorRemover();
+        if (args.length == 2) {
+            test.setTest(args[0], args[1]);
+            test.remove();
+            System.out.println(test);
+        }
     }
 }
