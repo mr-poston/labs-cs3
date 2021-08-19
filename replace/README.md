@@ -30,8 +30,8 @@ Sample Data | Sample Output
     <th>Sample Output</th>
   </tr>
   <tr>
-    <td>a b c a b c     a     +</td>
-    <td>[+, b, c, +, b, c]</td>
+    <td>`a b c a b c     a     +`</td>
+    <td>`[+, b, c, +, b, c]`</td>
   </tr>
   <tr>
     <td>a b c d e f g h i j x x x x     x     7</td>
