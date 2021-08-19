@@ -5,8 +5,10 @@ lab50:
     - terminal
 
   files:
+    - !exlude "*"
     - !include IteratorRemover.java
     - !include IteratorRemoverRunner.java
+    - !include Grader.java
 
 submit50:
   files: &files
