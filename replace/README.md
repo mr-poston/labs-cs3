@@ -25,7 +25,7 @@ Here's how to download this problem's "distribution code" (i.e., starter code) i
     <th>Sample Output</th>
   </tr>
   <tr>
-    <td><code>a b c a b c&emsp;a&emsp;+</code></td>
+    <td><code>a b c a b c &emsp; a &emsp; +</code></td>
     <td><code>[+, b, c, +, b, c]</code></td>
   </tr>
   <tr>
