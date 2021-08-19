@@ -30,16 +30,16 @@ Sample Data | Sample Output
     <th>Sample Output</th>
   </tr>
   <tr>
-    <td>`a b c a b c     a     +`</td>
-    <td>`[+, b, c, +, b, c]`</td>
+    <td><code>a b c a b c     a     +</code></td>
+    <td><code>[+, b, c, +, b, c]</code></td>
   </tr>
   <tr>
-    <td>a b c d e f g h i j x x x x     x     7</td>
-    <td>[a, b, c, d, e, f, g, h, i, j, 7, 7, 7, 7]</td>
+    <td><code>a b c d e f g h i j x x x x     x     7</code></td>
+    <td><code>[a, b, c, d, e, f, g, h, i, j, 7, 7, 7, 7]</code></td>
   </tr>
   <tr>
-    <td>1 2 3 4 5 6 a b c a b c     b     #</td>
-    <td>[1, 2, 3, 4, 5, 6, a, #, c, a, #, c]</td>
+    <td><code>1 2 3 4 5 6 a b c a b c     b     #</code></td>
+    <td><code>[1, 2, 3, 4, 5, 6, a, #, c, a, #, c]</code></td>
   </tr>
 </table>
     
