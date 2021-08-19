@@ -24,6 +24,25 @@ Sample Data | Sample Output
 `a b c a b c     a     +` | `[+, b, c, +, b, c]`
 `a b c d e f g h i j x x x x     x     7` | `[a, b, c, d, e, f, g, h, i, j, 7, 7, 7, 7]`
 `1 2 3 4 5 6 a b c a b c     b     #` | `[1, 2, 3, 4, 5, 6, a, #, c, a, #, c]`
+<table>
+  <tr>
+    <th>Sample Data</th>
+    <th>Sample Output</th>
+  </tr>
+  <tr>
+    <td>a b c a b c     a     +</td>
+    <td>[+, b, c, +, b, c]</td>
+  </tr>
+  <tr>
+    <td>a b c d e f g h i j x x x x     x     7</td>
+    <td>[a, b, c, d, e, f, g, h, i, j, 7, 7, 7, 7]</td>
+  </tr>
+  <tr>
+    <td>1 2 3 4 5 6 a b c a b c     b     #</td>
+    <td>[1, 2, 3, 4, 5, 6, a, #, c, a, #, c]</td>
+  </tr>
+</table>
+    
 
 ## Compiling and Running Java code in CS50 IDE
 ### Compiling
