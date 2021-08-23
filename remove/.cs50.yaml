@@ -1,0 +1,23 @@
+lab50:
+  window:
+    - editor
+    - readme
+    - terminal
+
+  files:
+    - !exclude "*"
+    - !include IteratorRemover.java
+    - !include IteratorRemoverRunner.java
+    - !include Grader.java
+
+submit50:
+  files: &files
+    - !require IteratorRemover.java
+    - !require IteratorRemoverRunner.java
+    - !require Grader.java
+    - !require IteratorRemover.class
+    - !require IteratorRemoverRunner.class
+    - !require Grader.class
+
+check50:
+  files: *files

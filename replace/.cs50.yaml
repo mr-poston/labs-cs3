@@ -1,0 +1,21 @@
+lab50:
+  window:
+    - editor
+    - readme
+    - terminal
+
+  files:
+    - !include IteratorReplacer.java
+    - !include IteratorReplacerRunner.java
+
+submit50:
+  files: &files
+    - !require IteratorReplacer.java
+    - !require IteratorReplacerRunner.java
+    - !require Grader.java
+    - !require IteratorReplacer.class
+    - !require IteratorReplacerRunner.class
+    - !require Grader.class
+
+check50:
+  files: *files
