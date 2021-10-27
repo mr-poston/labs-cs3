@@ -4,7 +4,7 @@
 import static java.lang.System.*;
 public class Grader {
     public static void main(String[] args) {
-        Postfix test = new Postfix();
+        PalinList test = new PalinList();
         if (args[0].equals("1")) {
             test.setList("one two three two one");
             out.println(test.isPalin() ? "y" : "n");
